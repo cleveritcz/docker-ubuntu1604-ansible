@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 LABEL maintainer="Jeff Geerling"
 
-ENV pip_packages "ansible pyopenssl"
+ENV pip_packages "ansible docker pyopenssl"
 
 # Install dependencies.
 RUN apt-get update \
